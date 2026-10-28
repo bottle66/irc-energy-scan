@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#02030a" />
+    <meta
+      name="description"
+      content="IRC 独立评估首页能量扫描波背景动效示例"
+    />
+    <title>IRC 独立评估 · 能量扫描波</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar" aria-label="顶部导航">
+        <a class="brand" href="#" aria-label="精翼睿诚首页">
+          <svg class="brand-mark" viewBox="0 0 40 32" aria-hidden="true">
+            <path d="M2 5h16l-5 8H2V5Z" fill="#4c55ff" />
+            <path d="M13 13h14L17 29H3l10-16Z" fill="#5d37ff" />
+            <path d="M19 5h17L25 21H9L19 5Z" fill="#2930a8" />
+          </svg>
+          <span>精翼睿诚</span>
+        </a>
+
+        <p class="topbar-date">September 25,2026 <span>|</span> China</p>
+
+        <a class="login-link" href="#login">登录</a>
+      </header>
+
+      <main id="hero" class="hero" aria-labelledby="hero-title">
+        <canvas id="energy-canvas" aria-hidden="true"></canvas>
+        <div class="fallback-background" aria-hidden="true"></div>
+        <div class="hero-vignette" aria-hidden="true"></div>
+
+        <section class="hero-content">
+          <p class="eyebrow">IRC Independent Review</p>
+          <h1 id="hero-title">IRC独立评估</h1>
+          <p class="tagline">
+            Independent Assessment Safeguarding<br />
+            Trust In Medical Industry
+          </p>
+          <a class="primary-cta" href="#login">
+            <span>立即登录</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h13M14 7l5 5-5 5" />
+            </svg>
+          </a>
+        </section>
+      </main>
+
+      <footer class="footer">
+        北京精翼睿诚科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;网站备案/许可证号：京ICP备2024078531号
+      </footer>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
